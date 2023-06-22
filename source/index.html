@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="css/coffee.css">
+  <meta charset="UTF-8">
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="js/checkout.js"></script>
+</head>
+
+<body>
+
+<div class="logo-container">
+    <img src="images/logo.png" alt="Coffee Shop Logo">
+</div>
+
+<input type="hidden" name="totalPrice" value="" id="totalPrice">
+
+<div class="wrapper">
+<ul class="menu">
+  <li>
+    <div>
+      <img src="images/menu/cappucino.png">
+    </div>
+    <div>
+      <span class="name">Capuccino</span> </br>
+      <span class="price">5.99 UAH</span> </br>
+    <button id="item1" class="additembtn" data-price="5.99">+ (0)</button>
+    </div> </br>
+  </li>
+  <li>
+    <div>
+    <img src="images/menu/espresso.png">
+    </div>
+    <div>
+      <span class="name">Espresso</span> </br>
+      <span class="price">8.49 UAH</span> </br>
+      <button id="item2" class="additembtn" data-price="8.49">+ (0)</button>
+    </div>
+  </li>
+
+</ul>
+</div>
+
+    </br>
+    <button id="checkoutbtn" class="checkoutbtn">Checkout</button>
+
+</body>
+</html>
